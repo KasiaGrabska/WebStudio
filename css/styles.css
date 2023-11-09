@@ -768,6 +768,7 @@ header {
     margin-bottom: 16px;
 }
 
+/* komentarz */
 /* ================================================= MOBILE ========================================= */
 @media screen and (min-width: 428px) and (max-width: 767px) {
     .container {

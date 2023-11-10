@@ -959,13 +959,14 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 72px;
+        justify-content: center;
     }
     .container-footer-changes {
-        margin-right: 72px;
+        margin: auto;
     }
     .link-block {
         display: block;
-        text-align: centre;
+        text-align: end;
     }
     .logo-link > .second-span {
         color: #f4f4fd;
@@ -1001,27 +1002,27 @@ header {
         background-color: #31d0aa;
     }
     .subscribe {
+        margin: auto;
         margin-bottom: 16px;
-        margin-left: 80px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #ffffff;
+        text-align: center;
     }
-    .form {
-        display: block;
-    }
+    
     .subscribe-form {
         display: flex;
-        gap: 24px;
+        gap: 16px;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .email {
-        margin-right: 24px;
-        margin-left: 80px;
+        margin: auto;
     }
     .mail-form {
-        width: 264px;
+        width: 398px;
         height: 40px;
         border: 1px solid #ffffff;
         background-color: transparent;

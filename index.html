@@ -27,6 +27,15 @@
                 <li><a href="tel:+110001111111" class="item link">+11 (000) 111-11-11</a></li>
             </ul>
             </address>
+            <menu class="hamburger">
+                <button class="hamburger-menu menu-toggle js-open-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu">
+                <svg width="32" height="22">
+                    <use href="./images/hamburger.svg#icon-menu-hamburger"></use>
+                </svg>
+                </button>
+            </menu>
         </div>
     </header>
     <main>
@@ -542,6 +551,75 @@
             </form>
         </div>
     </div>
+    <div class="container-hamburger js-menu-container" id="mobile-menu">
+        <div class="hamburger-div">
+            <button class="js-close-menu hamburger-close">
+                <svg class="hamburger-close-icon" width="8" height="8">
+                    <use href="./images/close.svg#icon-close-black"></use>
+                </svg>
+            </button>
+        </div>
+        <nav class="hamburger-navigation">
+            <ul class="hamburger-list">
+                <li><a href="./index.html" class="hamburger-link link ">Studio</a></li>
+                <li><a href="./portfolio.html" class="hamburger-link link">Portfolio</a></li>
+                <li><a href="" class="hamburger-link link">Contacts</a></li>
+            </ul>
+        </nav>
+        <address class="hamburger-address">
+         <ul class="hamburger-address-list">
+            <li><a href="mailto:info@devstudio.com" class="hamburger-item phone">info@devstudio.com</a></li>
+            <li><a href="tel:+110001111111" class="hamburger-item-mail">+11 (000) 111-11-11</a></li>
+        </ul>
+        </address>
+        <ul class="hamburger-social-links">
+            <li class="hamburger-social">
+                <a href="" class="hamburger-social-link">
+                    <svg 
+                    class="hamburger-social-item" 
+                    width="16" 
+                    height="16"
+                    style="fill: #f4f4fd;">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="hamburger-social">
+                <a href="" class="hamburger-social-link">
+                    <svg 
+                    class="hamburger-social-item" 
+                    width="16" 
+                    height="16"
+                    style="fill: #f4f4fd;">
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="hamburger-social">
+                <a href="" class="hamburger-social-link">
+                    <svg 
+                    class="hamburger-social-item" 
+                    width="16" 
+                    height="16"
+                    style="fill: #f4f4fd;">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="hamburger-social">
+                <a href='' class="hamburger-social-link">
+                    <svg 
+                    class="hamburger-social-item" 
+                    width="16" 
+                    height="16"
+                    style="fill: #f4f4fd;">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
     <script src="./js/modal.js"></script>     
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

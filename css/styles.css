@@ -224,15 +224,9 @@ img {
 .first {
     display: flex
 }
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0px 15px;
-}
 .navigation {
     display: flex;
     align-items: center;
-    padding-right: 332px;
 }
 .logo-link {
     margin-right: 76px;
@@ -450,10 +444,6 @@ header {
     margin-bottom: 72px;
     text-align: center;  
 }
-.customers-list {
-    display: flex;
-    gap: 24px;
-}
 .customer-icon {
     width: calc((100% - 120px)/6);
     height: 88px;
@@ -475,7 +465,6 @@ header {
     border-color: #404bbf;
 }
 .footer-changes {
-    display: flex;
     align-items: baseline;
 }
 .container-footer-changes {
@@ -488,6 +477,7 @@ header {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    margin-top: 72px;
 }
 .social-links-footer {
     display: flex;
@@ -606,12 +596,8 @@ header {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.subscribe-form {
-    display: flex;
-    gap: 24px;
-}
 .mail-form {
-    width: 264px;
+    width: 100%;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -931,6 +917,7 @@ header {
         display: flex;
         gap: 16px;
         flex-wrap: wrap;
+        justify-content: center;
         row-gap: 72px;
     }
     .customer-icon {
@@ -955,22 +942,22 @@ header {
     }
     .background {
         background-color: #2e2f42;
-        flex-shrink: 0;
         padding: 100px 0;
+        width: 100%;
+        text-align: center;
     }
     .footer-changes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 72px;
-        justify-content: center;
+        text-align: center;
     }
     .container-footer-changes {
-        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
     }
     .link-block {
-        display: block;
-        text-align: end;
+        margin-bottom: 16px;
+        display: inline-block;
     }
     .logo-link > .second-span {
         color: #f4f4fd;
@@ -982,6 +969,14 @@ header {
         color: #F4F4FD;
         letter-spacing: 0.02em;
         text-align: left;
+    }
+    .social-media-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .social-media-links {
         font-weight: 500;
@@ -1008,6 +1003,7 @@ header {
     .subscribe {
         margin: auto;
         margin-bottom: 16px;
+        margin-top: 72px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -1015,9 +1011,7 @@ header {
         color: #ffffff;
         text-align: center;
     }
-    
     .subscribe-form {
-        display: flex;
         gap: 16px;
         justify-content: center;
         flex-wrap: wrap;
@@ -1026,7 +1020,7 @@ header {
         margin: auto;
     }
     .mail-form {
-        width: 398px;
+        width: 100%;
         height: 40px;
         border: 1px solid #ffffff;
         background-color: transparent;
@@ -1040,6 +1034,29 @@ header {
     }
     .mail-form::placeholder {
         color: #ffffff;
+    }
+    .button-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button-subscribe {
+        min-width: 165px;
+        margin-top: 24px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #4D5AE5;
+        border: none;
+        border-radius: 4px;
     }
 
     /* MENU HAMBURGER I HEADER */
@@ -1067,7 +1084,7 @@ header {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-right: 76px;
+        margin-right: 16px;
     }
     .logo-link > .span {
         color: #2e2f42;
@@ -1180,6 +1197,8 @@ header {
     .hamburger-menu {
         border: none;
         background-color: transparent;
+        fill: black;
+        stroke: black;
 
     }
     .container-hamburger {

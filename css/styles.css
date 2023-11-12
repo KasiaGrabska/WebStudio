@@ -1193,7 +1193,7 @@ header {
         stroke: black;
 
     }
-    .container-hamburger {
+    .menu-container-a {
         overflow: auto;
         position: fixed;
         top: 0;
@@ -1884,7 +1884,7 @@ header {
     .hamburger {
         display: none;
     }
-    .container-hamburger {
+    .menu-container-a {
         display: none;
     }
     /* MODAL WINDOW */
@@ -2529,7 +2529,7 @@ header {
     .hamburger {
         display: none;
     }
-    .container-hamburger {
+    .menu-container-a {
         display: none;
     }
     /* MODAL WINDOW */

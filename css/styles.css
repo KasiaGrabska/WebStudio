@@ -1193,6 +1193,9 @@ header {
         stroke: black;
 
     }
+    .menu-container-a.is-open {
+        transform: translateY(0);
+    }
     .menu-container-a {
         overflow: auto;
         position: fixed;
@@ -1231,6 +1234,11 @@ header {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
         border 250 ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+    .hamburger-close-icon {
+        fill:#2e2f42;
+        width: 8px;
+        height: 8px;
+    }
     .hamburger-navigation {
         padding-left: 40px;
         padding-top: 80px;
@@ -1248,6 +1256,9 @@ header {
         color: #2e2f42;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+    .hamburger-link:focus {
+        color: #404bbf;
+    }
     .hamburger-address {
         padding-top: 284px;
     }
@@ -1259,7 +1270,7 @@ header {
     }
     .hamburger-item-phone {
         text-decoration: none;
-        color: #404BBF;
+        color: #4D5AE5;
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
@@ -1277,14 +1288,15 @@ header {
     }
     .hamburger-social-links {
         display: flex;
-        gap: 56px;
+        justify-content: space-between;
         margin-top: 48px;
         margin-bottom: 40px;
         margin-left: 40px;
+        margin-right: 40px;
     }
     .hamburger-social {
         height: 40px;
-        weight: 40px;
+        width: 40px;
     }
     .hamburger-social-link {
         width: 100%;
@@ -2451,6 +2463,7 @@ header {
     }
     .address {
         font-style: normal;
+        padding-top: 24px;
     }
     .item {
         color: #434455;
@@ -2464,15 +2477,6 @@ header {
     .item:hover,
     .item:focus {
         color: #404bbf;
-    }
-    .item {
-        color: #434455;
-        text-decoration: none;
-        font-size: 12px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        display: inline-block;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     }
     .first-section {
         padding: 96px 0px;

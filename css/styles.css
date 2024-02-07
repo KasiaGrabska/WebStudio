@@ -1488,6 +1488,17 @@ header {
     margin-bottom: 16px;
   }
 }
+
+/* SECOND PAGE PORTFOLIO MOBILE */
+
+.button-list {
+  margin-bottom: 48px;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 16px 24px;
+}
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .second-section {

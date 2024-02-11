@@ -37,33 +37,6 @@ ol {
   list-style: none;
 }
 
-.people {
-  background-color: #ffffff;
-}
-
-.background {
-  background-color: #2e2f42;
-  flex-shrink: 0;
-}
-.second-paragraph {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-}
-.logo-link {
-  color: #4d5ae5;
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.logo-link > .second-span {
-  color: #f4f4fd;
-}
-
 .filter-button {
   color: #4d5ae5;
   background-color: #f4f4fd;

@@ -317,7 +317,6 @@ ol {
   .subscribe {
     margin: auto;
     margin-bottom: 16px;
-    margin-top: 72px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -371,6 +370,8 @@ ol {
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
   }
   .send-subscribe {
     margin-left: 16px;
@@ -601,6 +602,9 @@ ol {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .studio-color {
+    color: #404bbf;
+  }
+  .portfolio-color {
     color: #404bbf;
   }
   .hamburger-link:hover {

@@ -899,10 +899,12 @@ ol {
   }
   img {
     display: block;
+    max-width: 100%;
   }
   .app-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
   }
@@ -1660,7 +1662,7 @@ ol {
     row-gap: 48px;
   }
   .app-link {
-    width: calc((100% - 48px) / 2);
+    width: 356px;
     display: block;
   }
   .link-shadow {
@@ -2040,11 +2042,12 @@ ol {
   }
   .first {
     display: flex;
+    align-items: center;
   }
   .navigation {
     display: flex;
     align-items: center;
-    padding-right: 332px;
+    margin-right: auto;
   }
   .logo-link {
     margin-right: 76px;
@@ -2104,13 +2107,11 @@ ol {
   }
   .address {
     font-style: normal;
-    padding-top: 24px;
   }
   .item {
     color: #434455;
     text-decoration: none;
     font-size: 16px;
-    margin-bottom: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -2124,8 +2125,9 @@ ol {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/background.jpg);
+      url(../images/background-desktop.jpg);
     max-width: 1440px;
+    max-height: fit-content;
     flex-shrink: 0;
     background-repeat: no-repeat;
     background-position: center;
@@ -2142,7 +2144,7 @@ ol {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/backgroundx2.jpg);
+        url(../images/background-desktopx2.jpg);
     }
   }
   .title {
